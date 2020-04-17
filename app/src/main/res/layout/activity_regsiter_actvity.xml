@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nsu"
+    tools:context=".RegisterActvity">
+
+
+    <EditText
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:background="@drawable/inside_deisgn"
+        android:id="@+id/reg_email"
+        android:drawableStart="@drawable/email"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="45dp"
+        android:hint=".@northsouth.edu"
+        android:textAlignment="center"
+        android:textColorHint="#ffffff"
+        android:layout_width="320dp"
+        android:layout_height="45dp" />
+
+    <EditText
+
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:inputType="numberPassword"
+        android:background="@drawable/inside_deisgn"
+        android:id="@+id/reg_password"
+        android:drawableStart="@drawable/pass"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textColorHint="#ffffff"
+        android:layout_width="320dp"
+        android:layout_height="45dp" />
+    <EditText
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:inputType="numberPassword"
+        android:background="@drawable/inside_deisgn"
+        android:id="@+id/reg_confirm_password"
+        android:drawableStart="@drawable/pass"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:hint="Confirm Password"
+        android:textAlignment="center"
+        android:textColorHint="#ffffff"
+        android:layout_width="320dp"
+        android:layout_height="45dp" />
+
+
+
+    <Button
+
+        android:id="@+id/create_account_button"
+        android:fontFamily="@font/semibold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="Create Account"
+        android:background="#d21e4e"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="55dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

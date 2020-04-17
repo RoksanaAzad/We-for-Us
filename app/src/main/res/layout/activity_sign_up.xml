@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nsu"
+    android:orientation="vertical"
+    tools:context=".LogInActivity">
+
+
+    <ImageView
+        android:id="@+id/nsu_logo"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/nsulogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+
+        android:paddingLeft="5dp"
+        android:background="@drawable/inside_deisgn"
+        android:id="@+id/logIn_email"
+        android:drawableStart="@drawable/email"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="45dp"
+        android:hint=".@northsouth.edu"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textColorHint="#ffffff"
+        android:layout_width="320dp"
+        android:layout_height="45dp" />
+
+    <EditText
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:inputType="numberPassword"
+        android:background="@drawable/inside_deisgn"
+        android:id="@+id/logIn_password"
+        android:drawableStart="@drawable/pass"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textColorHint="#ffffff"
+        android:layout_width="320dp"
+        android:layout_height="45dp" />
+
+
+    <Button
+
+        android:id="@+id/logIn_button"
+        android:fontFamily="@font/semibold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="Log In"
+        android:background="#d21e4e"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="55dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+
+        <TextView
+
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:text="Don't have an account? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+       <TextView
+
+           android:fontFamily="@font/sourcesansproack"
+           android:id="@+id/register_text"
+           android:layout_marginLeft="5dp"
+           android:layout_gravity="center"
+           android:textColor="#ffffff"
+           android:text="Sign Up"
+           android:textSize="25dp"
+
+           android:layout_width="wrap_content"
+
+           android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
